@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "basecamp",
+  "version": "1.0.0",
+  "description": "super simple API that serves a GET port, that returns the contents of a local JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-json-modules index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irgipaulius/centraltargetshost.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irgipaulius/centraltargetshost/issues"
+  },
+  "homepage": "https://github.com/irgipaulius/centraltargetshost#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

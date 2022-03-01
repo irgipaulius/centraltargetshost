@@ -1,0 +1,4 @@
+{
+  "serverPort": 3400,
+  "endpoint": "/targets"
+}
